@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../styles/Child.css'
 
 const Selection = ({ applyColor }) => {
   const [style, setStyle] = useState({ background: "" });
@@ -9,7 +10,8 @@ const Selection = ({ applyColor }) => {
 
   return (
     <div className="fix-box" style={style} onClick={handleClick}>
-      <h4 className="subheading">Selection</h4>
+    <div class="box-title">Selection</div>
+
     </div>
   );
 };
