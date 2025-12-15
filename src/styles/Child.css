@@ -1,38 +1,33 @@
 .fix-box {
-    width: 250px;
-    height: 250px;
-    margin: 20px;
-    border: 1px white dotted;
-    border-radius: 5px;
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  border: 1px white dotted;
+  border-radius: 5px;
+  color: white;
 }
 
-#master{
-    border-radius: 5px;
-    border: 2px white ridge;
-    width: 100%;
-}
-
-.subheading{
-    color: white;
-    text-align: center;
+.subheading {
+  color: white;
+  text-align: center;
 }
 
 .box {
-    width: 300px;
-    border: 2px solid #333;
-    border-radius: 8px;
-    padding: 15px;
-    background: #f7f7f7;
-    position: relative;
+  width: 300px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 15px;
+  background: #f7f7f7;
+  position: relative;
 }
 
 .box-title {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    text-align: center; /* optional */
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center; /* optional */
 }
 
-.row{
-    display: flex;
+.row {
+  display: flex;
 }
